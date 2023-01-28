@@ -6,7 +6,9 @@
  }
 main{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 .container{
     background-color: #ffff;
@@ -64,4 +66,20 @@ hr{
 }
 .blog-author a{
     text-decoration: none;
+}
+/* courses styles */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.course{
+    display: flex;
+}
+.courses .course-details img{
+    width: 224px;
+    height: 104px;
+}
+.course-info .img{
+    width: 20px;
+    height: 15px;
 }
